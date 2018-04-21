@@ -6,4 +6,4 @@ FMI Course
 
 with Assoc. Prof. V. Stoimenova, PhD
 
-(Sofia University "St. Kliment Ohridski")
+Sofia University "St. Kliment Ohridski"
