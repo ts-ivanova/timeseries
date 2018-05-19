@@ -5,6 +5,7 @@ install.packages("TSA")
 
 
 
+library("TSA")
 data(tempdub)
 plot(tempdub, type = "o")
 acf(tempdub,50)
