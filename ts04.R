@@ -1,4 +1,5 @@
-# 31.3.2018
+# 31.3.2018 (week4)
+
 # review from last time
 library(TSA)
 data("rwalk")

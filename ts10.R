@@ -1,7 +1,7 @@
-# week10 GARCH
+# week10
 
 library(TSA)
-data(CREF)
+data(CREF) # GARCH
 transf = diff (log(CREF))*100
 
 acf(transf)
@@ -32,3 +32,11 @@ pacf(transf)
 acf(transf^2)
 pacf((transf)^2)
 eacf(transf^2) # could be GARCH(1,1)
+
+
+model1=garch(x=transf, order=c(1,1))
+summary(model1)
+
+acf(residuals(model1))
+ts(transf)
+

@@ -1,4 +1,5 @@
-# 24.3.2018
+# 24.3.2018 (week3)
+
 library(TSA)
 
 # load and plot the data
@@ -75,7 +76,4 @@ model4=lm(rwalk~time(rwalk))
 acf(rstudent(model4))
 # a bit better now but still the diff process is even better :) 
 acf(diff(rwalk))
-
-
-
 

@@ -1,3 +1,5 @@
+# week 9
+
 library(tsa)
 
 # SARIMA season ARIMA model

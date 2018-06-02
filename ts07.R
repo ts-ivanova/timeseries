@@ -1,3 +1,5 @@
+# week7
+
 # simulate MA(1) process
 theta=0.9
 sim1=arima.sim(model=list(ma=theta),n=1000)

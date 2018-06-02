@@ -1,8 +1,7 @@
 # Time series
-# 24.2.2018
+# 24.2.2018 (week1)
 
 install.packages("TSA")
-
 
 
 library("TSA")

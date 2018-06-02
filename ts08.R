@@ -1,5 +1,4 @@
-# week8 of practice
-# 19.06
+# 19.06 (week8)
 
 library(TSA)
 data(color)

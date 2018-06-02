@@ -1,3 +1,5 @@
+# week6
+
 
 library(TSA)
 

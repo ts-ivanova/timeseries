@@ -1,5 +1,4 @@
-# Time series
-# 10.3.2018
+# 10.3.2018 (week2)
 
 data=read.table("/home/tsveti/Documents/1_PS/2TS/R/data.txt", header=TRUE)
 View(data)
